@@ -1,0 +1,231 @@
+* {
+  font-family: "montserrat";
+}
+.neg {
+  border-left: dotted black 2px;
+  height: 40px;
+  margin-left: 47px;
+}
+.huree {
+  background-color: white;
+  height: 370px;
+  width: 285px;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 40px;
+}
+
+.huree:hover {
+  border-color: green;
+  border-radius: 20px;
+}
+.mur {
+  color: gray;
+  font-size: 20px;
+}
+.mur:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.photo {
+  width: 250px;
+  background-size: 100%;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.photo:hover {
+  transition: 0.5s;
+  background-size: 120%;
+  scale: 1.1;
+}
+
+.too {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.too:hover {
+  transform: rotate(360deg);
+  transition: 10s;
+}
+.button {
+  background-color: #18ba51;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.fb {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+.insta {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.loc {
+  border-radius: 20px;
+}
+.loc:hover {
+  display: block;
+}
+.header {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.background {
+  background-color: #f4f4f4;
+}
+
+.neg {
+  border-left: dotted black 2px;
+  height: 40px;
+  margin-left: 29px;
+}
+.card-item1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1198px;
+  margin-top: 150px;
+}
+.card-item2 {
+  color: gray;
+  font-style: normal;
+  font-size: 24px;
+}
+.card-item3 {
+  font-size: 40px;
+}
+.d1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 1px;
+  position: relative;
+  border: 2px solid whitesmoke;
+}
+.d1:hover {
+  border: 2px solid;
+  border-radius: 5px;
+  color: #303030;
+  box-shadow: 8px 8px 4px greenyellow;
+  transition: 1s;
+}
+.d1a {
+  width: 56px;
+  height: 56px;
+  background-color: black;
+  border-radius: 50px;
+  color: #16a94a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.sukh1 {
+  height: 850px;
+  width: 720px;
+  border-radius: 20px;
+  position: absolute;
+  display: block;
+  left: 475px;
+  top: -195px;
+  display: none;
+}
+.d1:hover .sukh1 {
+  display: block;
+}
+.huvsgullake {
+  height: 850px;
+  width: 720px;
+  border-radius: 20px;
+  position: absolute;
+  display: block;
+  left: 475px;
+  top: -300px;
+  display: none;
+}
+.d1:hover .huvsgullake {
+  display: block;
+}
+.khorgo {
+  height: 850px;
+  width: 720px;
+  border-radius: 20px;
+  position: absolute;
+  display: block;
+  left: 475px;
+  top: -400px;
+  display: none;
+}
+.d1:hover .khorgo {
+  display: block;
+}
+.khiid {
+  height: 850px;
+  width: 720px;
+  border-radius: 20px;
+  position: absolute;
+  display: block;
+  left: 475px;
+  top: -600px;
+  display: none;
+}
+.d1:hover .khiid {
+  display: block;
+}
+.terk {
+  height: 850px;
+  width: 720px;
+  border-radius: 20px;
+  position: absolute;
+  display: block;
+  left: 475px;
+  top: -500px;
+  display: none;
+}
+.d1:hover .terk {
+  display: block;
+}
+.sukee {
+  height: 850px;
+  width: 720px;
+  border-radius: 20px;
+  position: absolute;
+  display: block;
+  left: 475px;
+  top: -700px;
+  display: none;
+}
+.d1:hover .sukee {
+  display: block;
+}
+
+.hoyr {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  gap: 20px;
+}
+.hoyr b {
+  background-color: #f4f4f4;
+}
+.circle-title {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
