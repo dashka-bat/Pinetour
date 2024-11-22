@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call"
+    />
+  </head>
+  <style>
+    .box {
+      width: 317px;
+      height: 97px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid white;
+    }
+    .box:hover {
+      border: 2px solid orange;
+    }
+
+    * {
+      font-family: "montserrat";
+    }
+    .social {
+      background-color: #303030;
+      width: 167px;
+      height: 44px;
+      font-size: 18px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .logobottom {
+      color: white;
+      font-size: 28px;
+    }
+    .logobottom:hover {
+      animation: swing 0.8s;
+
+      transform: rotateZ(0deg) translate(0, 0);
+    }
+    @keyframes swing {
+      0% {
+        transform: rotateZ(0deg) translate(0, 0);
+      }
+      20% {
+        transform: rotateZ(20deg) translate(15px, -5px);
+      }
+      40% {
+        transform: rotateZ(-10deg) translate(-15px, 2px);
+      }
+      60% {
+        transform: rotateZ(11deg) translate(10px, -1px);
+      }
+      80% {
+        transform: rotateZ(0deg) translate(0, 0);
+      }
+    }
+  </style>
+  <body style="background-color: #f4f4f4; margin: 0px">
+    <div
+      style="
+        height: 80px;
+        background-color: black;
+        text-align: center;
+        padding-top: 20px;
+      "
+    >
+      <img src="Group 7 1.png" />
+    </div>
+    <h1 style="color: #303030; text-align: center; font-size: 72px">
+      Order your trip
+    </h1>
+    <h2
+      style="
+        color: black;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 100px;
+      "
+    >
+      Choose your plan
+    </h2>
+    <div style="display: flex; justify-content: center; gap: 10px">
+      <div class="box">Strarter pack</div>
+      <div class="box">Luxury pack</div>
+    </div>
+    <h3
+      style="
+        column-rule: black;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 100px;
+      "
+    >
+      Contract Information
+    </h3>
+    <div>
+      <div
+        style="
+          color: gray;
+          font-size: 60px;
+          text-align: center;
+          margin-right: 0px;
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+        "
+      >
+        <span class="material-symbols-outlined"> call </span>
+        <div style="font-size: 50px; padding: bottom 20px">
+          <a style="color: black" href="https://mail.google.com/mail/u/0/#inbox"
+            >dushkab02@gmail.com</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: black;
+        height: 228px;
+        margin-top: 800px;
+        display: flex;
+        justify-content: space-between;
+      "
+    >
+      <div style="padding: 100px 100px">
+        <div class="logobottom">
+          Pine
+          <div>Tour.</div>
+        </div>
+      </div>
+      <div style="padding: 100px 100px; gap: 5px; display: flex">
+        <div class="social">
+          <img src="fb.png" />
+          <a
+            style="text-decoration: none; color: white"
+            href="https://www.facebook.com/KhuvsgulAylal/"
+            >facebook</a
+          >
+        </div>
+        <div class="social">
+          <img src="insta.png" />
+          <a
+            style="text-decoration: none; color: white"
+            href="https://www.instagram.com/"
+            >instagram</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
